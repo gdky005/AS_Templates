@@ -14,6 +14,9 @@
     <instantiate from="root/gradle.properties.ftl"
                    to="${escapeXmlAttribute(topOut)}/gradle.properties" />
 
+    <instantiate from="root/versions.gradle.ftl"
+                   to="${escapeXmlAttribute(topOut)}/versions.gradle" />
+
     <copy from="../../gradle/wrapper"
         to="${escapeXmlAttribute(topOut)}/" />
 
