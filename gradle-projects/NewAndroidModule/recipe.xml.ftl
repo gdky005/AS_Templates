@@ -2,6 +2,7 @@
 <recipe>
     <mkdir at="${escapeXmlAttribute(projectOut)}/libs" />
     <mkdir at="${escapeXmlAttribute(resOut)}/drawable" />
+    <mkdir at="${escapeXmlAttribute(resOut)}/drawable-xxhdpi" />
 
     <merge from="root/settings.gradle.ftl"
              to="${escapeXmlAttribute(topOut)}/settings.gradle" />
