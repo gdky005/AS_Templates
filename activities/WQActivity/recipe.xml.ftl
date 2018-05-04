@@ -15,6 +15,4 @@
     <instantiate from="root/src/app_package/SimpleActivity.${ktOrJavaExt}.ftl"
                    to="${escapeXmlAttribute(srcOut)}/${activityClass}.${ktOrJavaExt}" />
     <open file="${escapeXmlAttribute(srcOut)}/${activityClass}.${ktOrJavaExt}" />
-
-    <open file="${escapeXmlAttribute(projectOut)}/build.gradle" />
 </recipe>
